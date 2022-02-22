@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require("fs");
 const path = require('path');
+const generateMarkdown = require('./utils/generateMarkdown')
+
 
 
 // TODO: Create an array of questions for user input
@@ -71,22 +73,29 @@ const questions = [ {
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  // to access users answers you will have to do something like
-  // { first_name: 'Gabby', last_name: 'C' } <-- previous answers object
-  // console.log(data['first_name']) // <-- this would give you Gabby
 
-  // fs.appendFile(fileName, data[title]\n) -- only thing you should be updating is where is says data[title] writeToFileSync(path.join(process.cwd(), 'README.md'),data)
-  fs.writeToFileSync(path.join(process.cwd(), 'README.md'),answers)
+
+
+function writeToFile(fileName, data) {
+   
+  const info = generateMarkdown(data);
+
+
+  
+  fs.writeFileSync(fileName, info)
 
 }
+
+
+
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
 .then((answers) => {
-    writeToFile('README.md', answers) // invokes writeToFile function and passes answers to the data parameter
-    console.log(answers)
+
+    writeToFile('README.md', answers) 
+ 
   })    
 } 
 
