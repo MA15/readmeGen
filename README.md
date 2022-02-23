@@ -1,4 +1,4 @@
-# t
+# Readme Gen
   
 
 
@@ -7,66 +7,66 @@
 
 
 ## Description
-a
+This project is a professional Readme Generator
 
 
-
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents (Optional)
 
 
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [License](#license)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Installation
-a
+download the repository as well as install node and inquirer
 
 
 ## Usage
-a
+To generate readme
 
 
 
-## Credits
-a
+## Contribution
+Matt Arnett
 
 
 
 ## License
-Apache
+MIT
 
 
 ---
 
 
-## Badges
-
-
-
-
-## Features
-
-
-## How to Contribute
-
-
 ## Tests
-
-a
-
-
-a
+no
 
 
 
-m a
+
+
+
+
+
+
+## Questions
+
+Contact me through github
+
+
+
+Matt Arnett
+
+
+## Links
+
+Video:
+
+<iframe src="https://drive.google.com/file/d/13Wv--osfW9Qf7DsaXcobXV8_jAgaSR6Q/preview" width="640" height="480"></iframe>
+
 
 

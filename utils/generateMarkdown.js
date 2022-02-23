@@ -25,20 +25,15 @@ ${data.description}
 
 
 
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 ## Table of Contents (Optional)
 
 
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [License](#license)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -49,7 +44,7 @@ ${data.usage}
 
 
 
-## Credits
+## Contribution
 ${data.contributing}
 
 
@@ -61,21 +56,18 @@ ${data.license}
 ---
 
 
-## Badges
-
-
-
-
-## Features
-
-
-## How to Contribute
-
-
 ## Tests
-
 ${data.tests}
 
+
+
+
+
+
+
+
+
+## Questions
 
 ${data.questions}
 
